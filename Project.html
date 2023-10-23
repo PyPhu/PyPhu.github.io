@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: white">
+    <div class="navbar">
+      <a href="/" class="ms-3 link-body-emphasis text-decoration-none">
+        <div class="d-flex flex-row">
+          <i class="fa-solid fa-sun logo me-3"></i>
+          <h2 class="fs-4">Phurin Supawattanakul</h2>
+        </div>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="Project.html" class="nav-link">Project</a>
+        </li>
+        <li class="nav-item">
+          <a href="activities.html" class="nav-link">Activities</a>
+        </li>
+        <li class="nav-item">
+          <a href="certificate.html" class="nav-link">Certificate</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex flex-row justify-content-center mt-5">
+      <i class="fa-solid fa-folder-open me-3 mt-1"></i>
+      <h1>Project</h1>
+    </div>
+    <div class="card card-activ items-center">
+      <div class="card-body">
+        <div class="text-section">
+          <h1 class="card-title">Project : Notify for help</h1>
+          <p class="card-text h5">
+            Introduction
+          </p>
+          <p class="card-text">
+            Nowadays, the elderly population is increasing, and their bodies and immune systems are not as strong as those of the young. Therefore, I have created this project to support the growing elderly population. It aims to detect a human body at all times within a specified area. If that person falls down or becomes unconscious, 
+          </p>
+          <p class="card-text h5 mt-5">Work process</p>
+          <img
+        src="./Notify/nonnoti(2).png"
+        class="card-img-top img-activ"
+        alt="..."
+      />
+      <img
+        src="./Notify/notiinLINE.png"
+        class="card-img-Right img-activ"
+        alt="Notification Image"
+        />
+        <p class="card-text h5 mt-5">Code</p>
+        <p class="card-text">I used these libraries to create this project.</p>
+        <div class="col">
+          <ul>
+              <li>import time for make a smooth video flame rate 30.</li>
+              <li>import pyfirmata for connect to board Arduino.</li>
+              <li>import requests for sent message to LINE.</li>
+              <li>import mediapipe for detect human body.</li>
+              <li>import cv2 for image processing.</li>
+          </ul>
+          <p class="card-text h5 mt-5">Objective</p>
+          <p class="card-text">To help when someone faints or loses consciousness.</p>
+          <img
+        src="./Notify/lostcon 1.svg"
+        class="card-img-Right img-activ"
+        alt="Notification Image"
+        />
+        <p class="card-text h5 mt-5">Development</p>
+        <img
+        src="./Notify/moreaccurate 1.svg"
+        class="card-img-Right img-activ"
+        alt="Notification Image"
+        />
+        <img
+        src="./Notify/createsys 1.svg"
+        class="card-img-Right img-activ"
+        alt="Notification Image"
+        />
+        <p class="card-text h5 mt-5">Result </p>
+        <img
+        src="./Notify/detect-body.png"
+        class="card-img-Right img-activ"
+        alt="..."
+        />
+        <img
+        src="./Notify/detect-falling.png"
+        class="card-img-Right img-activ"
+        alt="..."
+        />
+        <img
+        src="./Notify/LINE-notifalling.png"
+        width="280"
+        height="400"
+        alt="..."
+        />
+       </div>
+        </div>
+      </div>
+      <div class="text-section">
+          <h1 class="card-title mt-3">Project : Hand command </h1>
+          <p class="card-text h5">
+            Introduction
+          </p>
+          <p class="card-text">
+            Nowadays, technology allows us to control electrical appliances in the home through a mobile phone. However, since mobile phones are not always with us, I had the idea of using hand gestures to control electrical appliances in the house. So I began with the simple task of turning lights on and off.          </p>
+          <p class="card-text h5 mt-5">Work process</p>
+          <img
+        src="./Hand/turnonlight.png"
+        class="card-img-top img-activ"
+        alt="..."
+      />
+      <img
+        src="./Hand/turnofflight.png"
+        class="card-img-Right img-activ"
+        alt="..."
+        />
+        <p class="card-text h5 mt-5">Code</p>
+        <p class="card-text">I used these libraries to create this project.</p>
+        <div class="col">
+          <ul>
+              <li>import cv2 for image processing.</li>
+              <li>from cvzone.HandTrackingModule import HandDetector for detect hand.</li>
+              <li>import pyfirmata for connect to board Arduino.</li>
+          </ul>
+          <p class="card-text h5 mt-5">Objective</p>
+          <p class="card-text">To make daily life more comfortable</p>
+          <img
+        src="./Hand/comfortable.png"
+        class="card-img-Right img-activ"
+        alt="Notification Image"
+        />
+        <p class="card-text h5 mt-5">Development</p>
+        <img
+        src="./Hand/devhand(1).png"
+        class="card-img-Right img-activi"
+        alt="..."
+        />
+        <img
+        src="./Hand/devhand(2).png"
+        class="card-img-Right img-activi"
+        alt="..."
+        />
+        <p class="card-text h5 mt-5">Result </p>
+        <img
+        src="./Hand/show2finger.png"
+        class="card-img-Right "
+        alt="..."
+        />
+        <img
+        src="./Hand/show1finger.png"
+        class="card-img-Right "
+        alt="..."
+        />
+       </div>
+        </div>
+        
+      </div>
+      <div class="card card-activ-col">
+        <div class="card-body">  
+      <div class="text-section me-2">
+        <h1 class="card-title ">Project : TumorVision Intelligent Brain Tumor 
+          Analysis and Segmentation</h1>
+        <p class="card-text h5">
+          Introduction
+        </p>
+        <p class="card-text">
+          The analysis of MRI images necessitates the expertise of a radiologist. Unfortunately, there is a scarcity of radiologists within the healthcare landscape of Thailand. 
+          Therefore, my friend and I created this AI to assist radiologists.        
+          <p class="card-text h5 mt-5">Segmentation</p>
+          <p class="card-text">This AI experiment show the evaluation of segmentation Ai ability to capture the region of brain tumor , loss and accuracy curve along with dicr corfficient value from training and validation result , as shown in following image </p>
+        <img
+      src="./brain/accuracy.png"
+      class="card-img-Right img-activ "
+      alt="..."
+    />
+    <img
+      src="./brain/loss.png"
+      class="card-img-Right img-activ"
+      alt="..."
+      />
+      <img
+      src="./brain/dice.png"
+      class="card-img-Right img-activ"
+      alt="..."
+      />
+      <img
+      src="./brain/datatrainseg 1.svg"
+      class="card-img-Right "
+      alt="..."
+      weight="400"
+      height="287"
+      />
+      <p class="card-text h5 mt-5">Classification</p>
+      <p class="card-text">This experiment show that image Classification AI were able to classify four types of tumors : Glioma Tumor, Meningioma Tumor, Pituitary Tumor and Non-Tumor, of which the ability of the AI model has been evaluated utilizing confustion matrix, the result is as shown in the picture</p>
+        <img
+      src="./brain/accANDloss-Class 1.svg"
+      class="card-img-Right "
+      alt=""
+      weight="430"
+      height="287"
+      />
+      <img
+      src="./brain/Class.png"
+      class="card-img-Right img-activ"
+      alt=""
+      />
+      <img
+      src="./brain/Qr-code 1.svg"
+      class="card-img-Right img-activi"
+      alt=".."
+      />
+     </div>
+    </div>
+    </div>
+  </div>
+  <div class="card card-activ items-center">
+    <div class="card-body">
+      <div class="text-section">
+        <h1 class="card-title">Project : Automatic Tree Watering</h1>
+        <p class="card-text h5">
+          Introduction</p>
+        <p class="card-text">
+          For this project, I got an idea from IOT (Internet Of Things) with the idea of ​​creating an automatic plant watering system. It notifies you on LINE when the plants need water, and you can check the status of the plants in the Blynk application. This project utilizes two sensors to detect soil moisture and weather conditions. The values are then compared to determine whether to use the relay module to water the plants.        </p>
+        <p class="card-text h5 mt-5">Work process</p>
+        <img
+      src="./watering/nowaterplant.png"
+      class="card-img-top img-activi"
+      alt="..."
+    />
+    <img
+      src="./watering/waterPlant.png"
+      class="card-img-Right img-activi"
+      alt=""
+      />
+      <p class="card-text h5 mt-5">Code</p>
+      <p class="card-text">I used these libraries to create this project.</p>
+      <div class="col">
+        <ul>
+          <li>#include <TridentTD_LineNotify.h> for use LINE to notify about tree status.</li>
+          <li>#include <BlynkSimpleEsp32.h> for connect with Blynk.</li>
+          <li>#include <PubSubClient.h> for use to connect with other device.</li>
+          <li>#include <WiFi.h> for connect wifi.</li>
+          <li>#include "DHT.h" for access DHT11.</ul>
+        <p class="card-text h5 mt-5">Objective</p>
+        <p class="card-text">Create an automatic plant waterer.</p>
+        <img
+      src="./watering/picwaterPlant 1.svg"
+      class="card-img-Right img-activ"
+      alt=""
+      />
+      <p class="card-text h5 mt-5">Result</p>
+      <img
+      src="./watering/Resultwater1.svg"
+      class="card-img-Right img-activ"
+      alt=""
+      />
+      <p class="card-text">This is the value that will display the values ​​of the plant.</p>
+      <img
+      src="./watering/Arduino.svg"
+      class="card-img-Right "
+      alt=""
+      />
+      <p class="card-text mt-3">These is the value that will display on LINE and Blynk.</p>
+      <img
+      src="./watering/LInearduino 1.svg"
+      class="card-img-Right "
+      height="367"
+      width="267"
+      />
+      <img
+      src="./watering/Blynk.png"
+      class="card-img-Right "
+      height="367"
+      width="167"
+      />
+     </div>
+      </div>
+    </div>
+    <div class="text-section mt-3">
+      <h1 class="card-title">Project : Matlab (circuit calculation program)</h1>
+      <p class="card-text h5">
+        Introduction
+      </p>
+      <p class="card-text">
+        This project was created based on knowledge and interest gained from studying series and parallel electrical circuits in the classroom. The program utilizes physics formulas learned during these studies for calculations. </p>      
+    <p class="card-text h5 mt-5">Code</p>
+    <p class="card-text">https://github.com/PyPhu/Matlab-circuit-calculation-program-</p>
+    <p class="card-text h5 mt-5">Objective</p>
+    <p class="card-text">To plot graph series and parallel electrical circuits</p>
+    <img
+    src="./matlab/graaph.png"
+    class="card-img-Right img-activi"
+    />
+    <p class="card-text h5 mt-5">Result</p>
+    <p class="card-text">Put values ​​into the program to plot graph of series and parallel electrical circuits</p>
+    <img
+    src="./matlab/Screenshot (63).png"
+    class="card-img-Right "
+    height="450"
+    width="450"
+    />
+   </div>
+    </div>
+    <div class="card card-activ-col">
+      <div class="card-body">
+        <div class="text-section">
+          <h5 class="card-title">Project : Game Lost Sight</h5>
+          <img
+        src="./game/Lost sight.png"
+        class="card-img-top img-activ"
+        alt="..."
+      /><p class="card-text h5">
+        Introduction</p>
+          <p class="card-text">
+            Lost Sight is a horror story game that begins with the protagonist waking up in a capsule and having lost her memories. Players must navigate through enigmatic places to find the character's lost memories while attempting to escape. However, within these mysterious locations, monsters lie in wait to end the player's life.
+          </p>
+          <p class="me-3 ">I'm the leader In this project, And create These model and some Blueprint</p>
+      <p class="me-3 ">Genre : Horror  Story</p>
+        </div>
+      </div>
+      <img
+        src="./game/Screenshot (81).png"
+        class="card-img-Right img-activ"
+        alt="..."
+      />
+      <img
+        src="./game/Screenshot (57).png"
+        class="card-img-Right img-activ"
+        alt="..."
+      />
+      <img
+        src="./game/Screenshot (59).png"
+        class="card-img-Right img-activ"
+        alt="..."
+      />
+      <img
+        src="./game/Screenshot (73).png"
+        class="card-img-Right img-activ"
+        alt="..."
+      />
+    </div>
+    <div class="card card-activ-col">
+      <div class="card-body">  
+    <p class="card-text h5">Development</p>
+        <img
+        src="./game/devgame1.png"
+        class="card-img-Right "
+        width="500"
+        />
+        <img
+        src="./game/devgame2.png"
+        class="card-img-Right "
+        width="500"
+        />
+  </div>
+  </body>
+</html>

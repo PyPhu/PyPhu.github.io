@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap");
+html,
+body {
+  font-family: "IBM Plex Sans Thai", sans-serif !important; }
+
+.p-header {
+  font-weight: 600; }
+
+h2 {
+  font-size: 16px;
+  font-weight: 600; }
+
+h1 {
+  font-size: 20px;
+  font-weight: 600; }
+
+h3 {
+  font-size: 12px;
+  font-weight: 600; }
+
+.intro {
+  font-size: 75px;
+  font-weight: 600;
+  text-align: left; }
+
+.p-size {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left; }
+
+body {
+  background-color: #FAFAFA; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: white; }
+
+.nav-link {
+  color: black; }
+
+.nav {
+  --bs-nav-link-hover-color: #FF6633; }
+
+.logo {
+  color: #FF6633;
+  font-size: 30px; }
+
+.bg {
+  background-image: url("Desktop\ -\ 14-2.png");
+  width: 100%;
+  height: 912px; }
+
+.btn-primary, .btn-primary:focus, .btn-primary:not(:disabled):active {
+  background-color: #FF6633;
+  border: none; }
+
+.btn-primary:hover {
+  background-color: red;
+  border: none; }
+
+.contianer {
+  width: 50%; }
+
+.card-cert-img {
+  max-height: 236px; }
+
+.card-cert {
+  width: 441px;
+  height: 311px;
+  border: none; }
+
+.card-cert-body {
+  height: 75px;
+  border-radius: 10px; }
+
+.img-activ {
+  height: 267px;
+  width: 385px;
+  margin: auto;
+  padding: 1em; }
+
+.img-activi {
+  height: 240px;
+  width: 385px;
+  margin: auto;
+  padding: 1em; }
+
+.img-qrcod {
+  height: 285;
+  width: 285;
+  margin: auto;
+  padding: 1em;
+}
+
+.card-activ {
+  flex-direction: row;
+  border: none;
+  border-radius: 0; }
+
+.card-activ-col {
+  flex-direction: row;
+  border: none;
+  border-radius: 0;
+  background-color: rgba(255, 65, 2, 0.49); }
